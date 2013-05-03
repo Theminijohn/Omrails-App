@@ -18,7 +18,8 @@ Devise.setup do |config|
 
   #omniauth with Devise
   config.omniauth :facebook, "169723939854426", "6002d145986c158b1a9a633b0613b887",
-                  {:scope => 'email, offline_access', :client_options => {:ssl => {:ca_file => '/usr/lib/ssl/certs/ca-certificates.crt'}}}
+                  {:scope => 'email, offline_access', :client_options => {:ssl => {:ca_file => 'lib/assets/cacert.pem'}}}
+
 
 
   # ==> Configuration for any authentication mechanism
