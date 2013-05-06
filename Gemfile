@@ -6,6 +6,7 @@ gem 'devise'
 gem 'simple_form'
 gem 'omniauth'
 gem 'omniauth-facebook'
+gem 'turbolinks'
 
 
 group :development, :test do
