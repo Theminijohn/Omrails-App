@@ -7,6 +7,7 @@ gem 'simple_form'
 gem 'omniauth'
 gem 'omniauth-facebook'
 gem 'turbolinks'
+gem 'twitter'
 
 
 group :development, :test do

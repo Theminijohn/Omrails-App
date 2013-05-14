@@ -21,6 +21,14 @@ Devise.setup do |config|
                   {:scope => 'email, offline_access', :client_options => {:ssl => {:ca_file => 'lib/assets/cacert.pem'}}}
 
 
+  Twitter.configure do |config|
+    config.consumer_key = "cEUhMdpatCD4I0CbOj8qNg"
+    config.consumer_secret = "iHFteuBJwLZsBuzo8DujFm0a1In4z6l3pyL5eAO0uI"
+    config.oauth_token = "738506725-PaiS5RuMfvl2wPODTnWWLyztyNqHGmWEBNCHLLtG"
+    config.oauth_token_secret = "Wn50VAsvA0uxA4u2rYtJ2cgFLQ02Gre1eERzhPlGW4"
+  end
+
+
 
   # ==> Configuration for any authentication mechanism
   # Configure which keys are used when authenticating a user. The default is
